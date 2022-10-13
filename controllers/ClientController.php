@@ -2,7 +2,7 @@
 namespace controllers;
 
 use controllers\base\WebController;
-use models\base\ClientsModele;
+use models\ClientsModele;
 use utils\Template;
 
 class ClientController extends WebController
@@ -20,5 +20,6 @@ class ClientController extends WebController
             array("page" => $page, "clients" => $clients)
         );
     }
+
     
 }
