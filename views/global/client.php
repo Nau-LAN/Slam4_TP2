@@ -7,6 +7,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, commodi delectus eaque eos esse ex illum laboriosam laborum modi, molestias necessitatibus non provident quidem quis repellat soluta tempore, veritatis vitae.
                     <a href="./client"></a>
                 </p>
+                <div class="text-center">Bienvenue, numéro <?= $id ?></div>
                 <div class="text-center">Page générée le <?= $date ?></div>
             </div>
         </div>
